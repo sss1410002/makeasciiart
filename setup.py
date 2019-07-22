@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name             = 'img2ascii',
-    version          = '0.1',
+    version          = '0.2',
     description      = 'Convert image to ascii art',
     long_description_content_type='text/markdown',
     long_description = open('README.md').read(),

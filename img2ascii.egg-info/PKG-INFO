@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: img2ascii
-Version: 0.1
+Version: 0.2
 Summary: Convert image to ascii art
 Home-page: https://github.com/sss1410002/asciiart
 Author: SSS
@@ -14,6 +14,12 @@ Description: # asciiart
         pip install opencv-python
         pip install numpy
         ```
+        
+        ## Usage
+        ```
+        pip install img2ascii
+        ```
+        
         ```python
         import img2ascii as i2a
         

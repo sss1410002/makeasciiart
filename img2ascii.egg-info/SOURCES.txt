@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+img2ascii/img2ascii.py
+img2ascii.egg-info/PKG-INFO
+img2ascii.egg-info/SOURCES.txt
+img2ascii.egg-info/dependency_links.txt
+img2ascii.egg-info/not-zip-safe
+img2ascii.egg-info/requires.txt
+img2ascii.egg-info/top_level.txt

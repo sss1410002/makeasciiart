@@ -1,5 +1,5 @@
-# asciiart
-Convert image to ascii art
+# makeasciiart
+Let's make ascii art
 
 ## Dependency
 ```
@@ -9,11 +9,11 @@ pip install numpy
 
 ## Usage
 ```
-pip install img2ascii
+pip install makeasciiart
 ```
 
 ```python
-import img2ascii as i2a
+import makeasciiart
 
 import numpy as np
 import cv2
@@ -27,8 +27,9 @@ return img,newimg # img : original image, newimg : ascii art image
 
 ## Example 1
 ```python
+## Display
 filename = 'test.jfif'
-origin, newimg = i2a.img2ascii(filename)
+origin, newimg = makeasciiart.img2ascii(filename)
 if type(newimg) == type(None):
     exit()
 cv2.imshow("origin", origin)

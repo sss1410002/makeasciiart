@@ -1,13 +1,13 @@
 Metadata-Version: 2.1
-Name: img2ascii
+Name: makeasciiart
 Version: 0.2
 Summary: Convert image to ascii art
-Home-page: https://github.com/sss1410002/asciiart
+Home-page: https://github.com/sss1410002/makeasciiart
 Author: SSS
 Author-email: sss1410002@gmail.com
 License: MIT
-Description: # asciiart
-        Convert image to ascii art
+Description: # makeasciiart
+        Let's make ascii art
         
         ## Dependency
         ```
@@ -17,11 +17,11 @@ Description: # asciiart
         
         ## Usage
         ```
-        pip install img2ascii
+        pip install makeasciiart
         ```
         
         ```python
-        import img2ascii as i2a
+        import makeasciiart
         
         import numpy as np
         import cv2
@@ -35,8 +35,9 @@ Description: # asciiart
         
         ## Example 1
         ```python
+        ## Display
         filename = 'test.jfif'
-        origin, newimg = i2a.img2ascii(filename)
+        origin, newimg = makeasciiart.img2ascii(filename)
         if type(newimg) == type(None):
             exit()
         cv2.imshow("origin", origin)

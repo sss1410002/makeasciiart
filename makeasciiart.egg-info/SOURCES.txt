@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+makeasciiart/__init__.py
+makeasciiart.egg-info/PKG-INFO
+makeasciiart.egg-info/SOURCES.txt
+makeasciiart.egg-info/dependency_links.txt
+makeasciiart.egg-info/not-zip-safe
+makeasciiart.egg-info/requires.txt
+makeasciiart.egg-info/top_level.txt

@@ -6,6 +6,12 @@ Convert image to ascii art
 pip install opencv-python
 pip install numpy
 ```
+
+## Usage
+```
+pip install img2ascii
+```
+
 ```python
 import img2ascii as i2a
 
